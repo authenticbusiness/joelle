@@ -1,0 +1,121 @@
+/* Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;cursor:default;color:black;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+
+html, body {
+  height: 100%;
+	font-size: 24px;
+	-webkit-text-size-adjust: 100%;
+	-webkit-text-size-adjust:100%;
+ -ms-text-size-adjust:100%;
+ -moz-text-size-adjust:100%;
+ text-size-adjust:100%;
+}
+
+section.info {
+	width: 60%;
+	min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -150px;
+}
+
+section.info:after {
+  content: "";
+  display: block;
+}
+
+div.wrapper {
+	padding: 50px;
+}
+
+p {
+	margin-bottom: 1em;
+	‑webkit‑text‑size‑adjust: 100%
+	text-size-adjust: 100%;
+}
+p, a {
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.3;
+}
+
+a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+footer, section.info:after {
+  height: 150px;
+}
+
+div.contact {
+	float: left;
+	height: 100px;
+	margin-left: 50px;
+}
+
+div.contact li {
+	display: table-cell;
+	 vertical-align: bottom;
+	 height: 100px;
+	 padding-right: 25px;
+ }
+a.logo {
+	float:right;
+	width: 50px;
+	height:100px;
+	margin-right: 50px;
+	cursor: help;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+@media only screen and (max-width : 600px) {
+	section.info {
+		width: 100%;
+	}
+	html, body {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width : 600px) and (max-width : 1024px) {
+	section.info {
+		width: 80%;
+	}
+	html, body {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-device-width : 600px) {
+	section.info {
+		width: 100%;
+	}
+	html, body {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) {
+	section.info {
+		width: 80%;
+	}
+	html, body {
+		font-size: 30px;
+	}
+}
